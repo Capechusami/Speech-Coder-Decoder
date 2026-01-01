@@ -93,7 +93,7 @@ The MATLAB program is organized into sections using `%%` as follows:
 * Low-pass filtering significantly improved reconstruction quality.
 * Listening tests confirmed that the reconstructed speech remained understandable.
 ![image alt](https://github.com/Capechusami/Speech-Coder-Decoder/blob/b69a889bc48e5edc0c516c9e211e326fb5b44955/Output%20Figure%201.png)
-![image alt](
+![image alt](https://github.com/Capechusami/Speech-Coder-Decoder/blob/415161e7f7199656cbddfc5e177bca3604033ece/Output%20Figure%202.png)
 ---
 
 ## ⚠️ Challenges & Observations
