@@ -21,12 +21,12 @@ sound(reconstructedSignal, Fs);
 %%
 t1 = (0:length(speechSignal)-1)/Fs;
 t2 = (0:length(reconstructedSignal)-1)/Fs;
-
+% {to show the second output of figure%}
 figure;
 subplot(2,1,1);
 plot(t1, speechSignal);
 title('Original Speech Signal');
-
+% {to show the reconstructed output of audio%}
 subplot(2,1,2);
 plot(t2, reconstructedSignal);
 title('Reconstructed Speech Signal');
@@ -43,3 +43,4 @@ legend('Original', 'Reconstructed');
 title('Comparison of Speech Signals');
 xlabel('Time (s)');
 ylabel('Amplitude');
+
